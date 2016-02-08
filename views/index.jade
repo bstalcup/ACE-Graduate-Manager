@@ -1,5 +1,20 @@
 extends layout
 
+
 block content
-  h1= title
-  p Welcome to #{title}
+  div.container
+    div.component
+      h1= title
+      p Welcome to #{title}
+      div.sticky-wrap
+        table.sticky-enabled
+          thead
+            th Hello
+            th My
+            th Name
+            th Brad
+          tr
+            td One
+            td Two
+            td Three
+            td Four
